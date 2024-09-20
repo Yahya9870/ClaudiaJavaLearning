@@ -20,9 +20,10 @@ public class ForLoop {
         // 5th iteration i=4, true, hello world, i=5
         // 6th iteration i=5, false and our loop finally terminates
 
-//        for(int i = 0; i < 5; i++) {  // i = 0,1,2,3,4
+//        for(int i = 1; i <= 5;i++) {  // i = 0,1,2,3,4
 //
 //            System.out.println("Hello World!");
+
 //        }
 
         // 1st iteration i=1, true hello world, i=2
@@ -32,7 +33,7 @@ public class ForLoop {
         // 5th iteration i=5, true hello world, i=6
         // 6th iteration i=6, false (loop terminates)
 
-        for (int i=1; i<=5; i++) {
+        for (int i=0; i<5; i++) {
             System.out.println("Hello Java!");
         }
 

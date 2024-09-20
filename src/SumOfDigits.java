@@ -10,6 +10,7 @@ public class SumOfDigits
         System.out.println("Enter a number: ");
         int num = input.nextInt();
         int sum = 0;
+        int r;
  //with the pf while loop
         // num= 1   0   2  3
         while (num != 0) {
@@ -18,7 +19,8 @@ public class SumOfDigits
             // 3. sum=5+0=5
             // 4. sum=5+1=6
             // 5. loop terminates
-            sum += num % 10; // sum=sum+num%10;
+            r=num%10;
+            sum = sum+ r; // sum=sum+num%10;
             num /= 10;       // num=num/10;
 
         }
